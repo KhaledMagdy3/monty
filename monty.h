@@ -77,5 +77,8 @@ void free_all_args(void);
 void push(stack_t **stack, unsigned int line_number);
 int is_nmbr(char *str);
 void pall(stack_t **stack, unsigned int line_number);
+void pint(stack_t **stack, unsigned int line_number);
+void pop(stack_t **stack, unsigned int line_number);
+void delete_stack_node(void);
 
 #endif /*MONTY_H*/
