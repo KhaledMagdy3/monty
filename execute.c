@@ -11,9 +11,9 @@ void execut_line(void)
 	instruction_t instructions[] = {
 		{"push", &push},
 		{"pall", &pall},
+		{"pop", &pop},
+		{"pint", &pint},
 		/**
-		* {"pop", &pop},
-		*{"pint", &pint},
 		*{"swap", &swap},
 		*{"nop", &nop},
 		*{"add", &add},
